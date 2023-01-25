@@ -1,0 +1,97 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-color {
+    background-color: #ffb300;
+}
+
+.navbar-custom {
+    @extend .navbar;
+    background-color: transparent;
+}
+
+.navButtons {
+    @extend .nav-item;
+    --#{$prefix}nav-link-color: #{$white};
+    --#{$prefix}nav-link-hover-color: #{$gray-800};
+    font-weight: 700;
+    font-size: larger;
+}
+
+.custom-toggler {
+    @extend .navbar-toggler;
+    @extend .navbar-dark;
+    border-color: transparent;
+}
+
+.nav-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.padding {
+    padding-bottom: 5rem;
+}
+
+.pad-between-headers {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.heading-color {
+    color: $white;
+}
+
+.typing-effect {
+    color: $gray-800;
+}
+
+.socials {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.socialStyle {
+    font-size: 2rem;
+    color: white;
+    &:hover {
+        color:$gray-800;
+        transition: 0.3s;
+    }
+}
+
+.customTooltips {
+    --#{$prefix}tooltip-bg: #{$gray-800};
+    padding-bottom: 1rem;
+}
+
+.homeButton {
+    font-size: 3rem; 
+    color: white;
+    &:hover {
+        color:$gray-800;
+        transition: 0.3s;
+    }
+}
+
+.stayInYourLane {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.fancyImage {
+    border-radius: 48% 52% 29% 71% / 55% 34% 66% 45%;
+    padding: 2rem;
+    max-height: 100%;
+    max-width: 100%;
+}
+  
