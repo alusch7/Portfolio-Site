@@ -13,7 +13,15 @@ html {
 
 .navbar-custom {
     @extend .navbar;
-    background-color: transparent;
+    background-color: #ffb300;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.atTop {
+    background-color: transparent !important;
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .navButtons {
@@ -75,7 +83,7 @@ html {
 }
 
 .homeButton {
-    font-size: 3rem; 
+    font-size: 2.5rem; 
     color: white;
     &:hover {
         color:$gray-800;
