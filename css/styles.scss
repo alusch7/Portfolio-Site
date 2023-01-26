@@ -98,8 +98,18 @@ html {
 
 .fancyImage {
     border-radius: 48% 52% 29% 71% / 55% 34% 66% 45%;
-    padding: 2rem;
     max-height: 100%;
     max-width: 100%;
+    padding-right: 1rem;
 }
   
+.fancyUnderlay {
+    border-radius: 40% 60% 69% 31% / 26% 57% 43% 74%  ;
+    max-height: 100%;
+    max-width: 100%;
+    background: rgba(229, 156, 10, 0.511);
+}
+
+.textColor {
+    color: $gray-800;
+}
