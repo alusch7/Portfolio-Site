@@ -10887,4 +10887,10 @@ html {
   color: #343a40;
 }
 
+.aboutSection {
+  background-color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
