@@ -128,3 +128,20 @@ html {
     padding-top: 4rem; 
     padding-bottom: 4rem;
 }
+
+.projectSection {
+    padding-top: 4rem; 
+    padding-bottom: 4rem;
+}
+
+.cardButtons {
+    background-color: #ffb300;
+    --#{$prefix}btn-hover-bg: rgba(229, 156, 10, 0.511);
+    --#{$prefix}btn-border-color: transparent;
+    --#{$prefix}btn-hover-border-color: transparent;
+}
+
+.padProjects {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
