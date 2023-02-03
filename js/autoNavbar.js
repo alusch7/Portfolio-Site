@@ -4,7 +4,6 @@ window.onscroll = function() {
     var bar = document.getElementById("mainNav");
     const height = bar.offsetHeight;
     var currentScrollPosition = window.scrollY;
-    console.log(height);
     if (currentScrollPosition < height-20) {
         bar.classList.add("atTop");
     } else {

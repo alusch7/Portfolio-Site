@@ -10794,6 +10794,15 @@ html {
   transition: all 0.5s ease-in-out;
 }
 
+.cursor {
+  font-size: larger;
+  color: #343a40;
+}
+
+.typing-effect {
+  color: #343a40;
+}
+
 .atTop {
   background-color: transparent !important;
   box-shadow: none;

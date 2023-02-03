@@ -4,8 +4,8 @@
         <title>Alden Luscher</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/node_modules/jquery/dist/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <script src="js/autoNavbar.js"></script>
     </head>
     <body class="bg-color">
         <script src="js/autoNavbar.js"></script>
@@ -35,7 +35,7 @@
             <div id="landing" class="container text-center">
                 <div>
                     <h1 class="display-1 fw-semibold heading-color pad-between-headers">Hi! I'm Alden.</h1>
-                    <h3 class="heading-color pad-between-headers">Part-time <span class="auto-type typing-effect"> </span></h3>
+                    <h3 class="heading-color pad-between-headers">Part-time <span class="typing-effect" id="typing-effect""></span><span class="cursor" id="cursor">|</span></h3>
                     <ul class="pad-between-headers">
                         <a class="socials" href="https://www.linkedin.com/in/aldenluscher/" target="_blank" data-bs-toggle="tooltip" data-bs-custom-class="customTooltips" data-bs-placement="bottom" data-bs-title="LinkedIn"><i class="bi bi-linkedin socialStyle"></i></a>
                         <a class="socials" href="https://github.com/alusch7" target="_blank" data-bs-toggle="tooltip" data-bs-custom-class="customTooltips" data-bs-placement="bottom" data-bs-title="Github"><i class="bi bi-github socialStyle"></i></a>
@@ -74,21 +74,9 @@
         <div id="projects">
 
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <script>
-            var typed = new Typed(".auto-type", {
-                strings: ["null", "Engineering Student ⚙️", "Tinkerer 🤖", "Programmer 💻", "Space Nerd 🚀", "Biker 🚴"],
-                typeSpeed: 75,
-                backSpeed: 75,
-                loop: true
-            })
-        </script>
-        <script>
-            // Initialize tooltips
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-              return new bootstrap.Tooltip(tooltipTriggerEl)
-            })
-        </script>
+        <script src="js/autoNavbar.js"></script>
+        <script src="js/cursor.js"></script>
+        <script src="js/catchphrases.js"></script>
     </body>
+    
 </html>
