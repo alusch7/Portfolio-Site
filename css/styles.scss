@@ -123,7 +123,7 @@ html {
     color: $gray-800;
 }
 
-.aboutSection {
+.whiteSection {
     background-color: white; 
     padding-top: 4rem; 
     padding-bottom: 4rem;
@@ -144,4 +144,9 @@ html {
 .padProjects {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.logos {
+    max-height: 4rem;
+    margin-right: 1rem;
 }
