@@ -10921,12 +10921,12 @@ html {
 
 .logos {
   max-height: 4rem;
-  margin-right: 1rem;
+  padding-right: 2%;
 }
 
 .work-sections {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
 }
 
 /*# sourceMappingURL=styles.css.map */
